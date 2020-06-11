@@ -13,5 +13,10 @@ namespace signalR_framework_test.Hubs
         {
             await Clients.All.SendAsync("ReceiveMessage", user, message);
         }
+
+        public void Hello()
+        {
+            Clients.All.hello("Mayito");
+        }
     }
 }

@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://unpkg.com/signalr@2.4.0/jquery.signalR.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aspnet-signalr/1.1.4/signalr.min.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            var hub = $.connection.myHub;
+            $.connection.hub.url = 'http://localhost:6071/signalr';
+
+            $.connection.hub.start().done(function () {
+                hub.server.hello();
+            });
+
+            hub.client.hello = function (message) {
+                alert('Hello ' + message);
+            };
+        });
+    </script>
+
+
+</body>
+</html>
