@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Net.Http.Headers;
 using System.Web.Http.Description;
-using signalR_framework_test.Areas.HelpPage.ModelDescriptions;
+using SignalR.Framework.Test.Areas.HelpPage.ModelDescriptions;
 
-namespace signalR_framework_test.Areas.HelpPage.Models
+namespace SignalR.Framework.Test.Areas.HelpPage.Models
 {
     /// <summary>
     /// The model that represents an API displayed on the help page.

@@ -1,7 +1,7 @@
 using System.Web.Http;
 using System.Web.Mvc;
 
-namespace signalR_framework_test.Areas.HelpPage
+namespace SignalR.Framework.Test.Areas.HelpPage
 {
     public class HelpPageAreaRegistration : AreaRegistration
     {

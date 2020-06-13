@@ -1,6 +1,6 @@
 using System;
 
-namespace signalR_framework_test.Areas.HelpPage
+namespace SignalR.Framework.Test.Areas.HelpPage
 {
     /// <summary>
     /// This represents a preformatted text sample on the help page. There's a display template named TextSample associated with this class.

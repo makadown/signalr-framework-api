@@ -3,9 +3,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Cors;
 using Owin;
 
-[assembly: OwinStartup(typeof(signalR_framework_test.Startup))]
+[assembly: OwinStartup(typeof(SignalR.Framework.Test.Startup))]
 
-namespace signalR_framework_test
+namespace SignalR.Framework.Test
 {
     public class Startup
     {
@@ -24,8 +24,9 @@ namespace signalR_framework_test
                     // You can enable JSONP by uncommenting line below.
                     // JSONP requests are insecure but some older browsers (and some
                     // versions of IE) require JSONP to work cross domain
-                    EnableJSONP = true
+                    // EnableJSONP = true
                 };
+
                 // Run the SignalR pipeline. We're not using MapSignalR
                 // since this branch already runs under the "/signalr"
                 // path.

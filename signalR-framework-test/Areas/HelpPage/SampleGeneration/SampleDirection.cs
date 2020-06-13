@@ -1,4 +1,4 @@
-namespace signalR_framework_test.Areas.HelpPage
+namespace SignalR.Framework.Test.Areas.HelpPage
 {
     /// <summary>
     /// Indicates whether the sample is used for request or response

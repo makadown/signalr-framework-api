@@ -3,7 +3,7 @@ using System.Globalization;
 using System.Linq;
 using System.Reflection;
 
-namespace signalR_framework_test.Areas.HelpPage.ModelDescriptions
+namespace SignalR.Framework.Test.Areas.HelpPage.ModelDescriptions
 {
     internal static class ModelNameHelper
     {

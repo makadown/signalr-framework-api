@@ -1,10 +1,10 @@
 using System;
 using System.Web.Http;
 using System.Web.Mvc;
-using signalR_framework_test.Areas.HelpPage.ModelDescriptions;
-using signalR_framework_test.Areas.HelpPage.Models;
+using SignalR.Framework.Test.Areas.HelpPage.ModelDescriptions;
+using SignalR.Framework.Test.Areas.HelpPage.Models;
 
-namespace signalR_framework_test.Areas.HelpPage.Controllers
+namespace SignalR.Framework.Test.Areas.HelpPage.Controllers
 {
     /// <summary>
     /// The controller that will handle requests for the help page.

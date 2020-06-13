@@ -1,6 +1,6 @@
 using System;
 
-namespace signalR_framework_test.Areas.HelpPage
+namespace SignalR.Framework.Test.Areas.HelpPage
 {
     /// <summary>
     /// This represents an invalid sample on the help page. There's a display template named InvalidSample associated with this class.

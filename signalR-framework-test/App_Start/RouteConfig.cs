@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace signalR_framework_test
+namespace SignalR.Framework.Test
 {
     public class RouteConfig
     {

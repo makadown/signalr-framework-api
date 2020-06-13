@@ -11,10 +11,10 @@ using System.Net.Http.Headers;
 using System.Web.Http;
 using System.Web.Http.Controllers;
 using System.Web.Http.Description;
-using signalR_framework_test.Areas.HelpPage.ModelDescriptions;
-using signalR_framework_test.Areas.HelpPage.Models;
+using SignalR.Framework.Test.Areas.HelpPage.ModelDescriptions;
+using SignalR.Framework.Test.Areas.HelpPage.Models;
 
-namespace signalR_framework_test.Areas.HelpPage
+namespace SignalR.Framework.Test.Areas.HelpPage
 {
     public static class HelpPageConfigurationExtensions
     {
